@@ -1,0 +1,6 @@
+<binding xmlns:tns="http://www.example.org/HelloWorld" name="binding" package="org.example.helloworld">
+  <namespace uri="http://www.example.org/HelloWorld" default="elements"/>
+  <mapping class="org.example.helloworld.HelloWorldBean" name="HelloWorldBean">
+    <value style="element" name="message" get-method="getMessage" set-method="setMessage"/>
+  </mapping>
+</binding>
